@@ -1,0 +1,109 @@
+.container {
+    display: grid;
+    
+    margin: 0 auto;
+    border: auto;
+    
+    max-width: 65%;
+    min-width: 300px;
+    background-color: rgb(216, 216, 216);
+      
+    }
+  
+  
+    header {
+      padding: 2em;
+      border-bottom: 1px solid rgb(97, 113, 255);
+      background-color: rgb(74, 99, 116);
+      margin-bottom: 2%;
+      max-width: 65%;
+      margin: 1em auto;
+      padding: 1em 0;
+      text-align: center;
+      color: whitesmoke;
+  }
+  
+    footer {
+      border-top: 2em;
+      margin-bottom: 1em;
+      max-width: 65%;
+      margin: 0 auto;
+      background: #666;
+      color: #fff;
+      padding: 1em 0;
+      text-align: center;
+  }
+  
+  h3 {
+    text-decoration: underline;
+    
+    
+  }
+  
+  #bold1 {
+    font-weight: 2px;
+  
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: .5em 2em;
+    
+  }
+  
+  nav a:hover{
+    background: #666;
+  }
+  
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    background: #333;
+  }
+  
+  body {
+    font-family: sans-serif;
+    line-height: 1.618em;
+    box-sizing: boder-box;
+    margin: 2%;
+    padding: 0;
+  
+    background-image: url("https://cdn.pixabay.com/photo/2017/01/18/15/51/paper-1990111_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  .projectContent {
+      
+    max-width: 100%;
+    background-color: rgb(243, 237, 237)
+  }
+  
+  section {
+  margin: 1em 0;
+  padding-top: 3em;
+  min-height: 20em;
+  
+  }
+  
+  section > p{
+    margin: 1em 0;
+    }
+  
+    #projects{
+      display: grid;
+      grid-template-columns: repeat(3);
+    }
+  
+    .projects{
+      
+  
+    }
+  
+  
