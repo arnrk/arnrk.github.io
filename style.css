@@ -1,12 +1,12 @@
 .container {
-    display: grid;
-    
     margin: 0 auto;
     border: auto;
-    
     max-width: 65%;
-    
-    background-color: rgb(216, 216, 216);
+    background-color: rgb(214, 214, 214);
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
       
     }
   
@@ -22,6 +22,8 @@
       text-align: center;
       color: whitesmoke;
       line-height: 1em;
+      border-bottom-right-radius: 45px;
+      border-bottom-left-radius: 45px;
   }
   
     footer {
@@ -29,10 +31,12 @@
       margin-bottom: 1em;
       max-width: 65%;
       margin: 0 auto;
-      background: #666;
+      background: rgb(74, 99, 116);
       color: #fff;
       padding: 1em 0;
       text-align: center;
+      border-top-right-radius: 45px;
+      border-top-left-radius: 45px;
   }
   
   h3 {
