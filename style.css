@@ -75,7 +75,8 @@
     margin: 2%;
     padding: 0;
   
-    background-image: url("images\background.png");
+    background-image: url("./images/space-3197606_1920.jpg");
+    background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover; 
   }
@@ -100,7 +101,7 @@
     margin: 1em 0;
     }
   
-    #projects{
+    #projects {
       display: grid;
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: auto;
@@ -119,30 +120,11 @@
         border: 1px solid #333;
     }
 
-    @media screen and (max-width: 40em) {
-      #projects {
-        grid-template-columns: 1fr;
-        grid-row-gap: 1em;
-        
-        width: 60vw;
-        min-width: 22em;
-        margin: 1em auto;
-      }
-    
-      
-   
-      #projects article.expanded p {
-        display: block;
-      }
-    }
-    
-    @media screen and (max-width: 25em) {
-      #projects {
-        width: auto;
-        min-width: unset;
-      }
-    }
+    #contact img {
+      width: 50%;
+      align-items: left;
+  }
 
+    
+    
 
-  
-  
