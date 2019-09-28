@@ -5,8 +5,7 @@
     background-color: rgb(214, 214, 214);
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
-    border-bottom-right-radius: 45px;
-    border-bottom-left-radius: 45px;
+    padding-bottom: 2%;
       
     }
   
@@ -16,27 +15,24 @@
       border-bottom: 1px solid rgb(97, 113, 255);
       background-color: rgb(74, 99, 116);
       margin-bottom: 2%;
-      max-width: 65%;
+      max-width: 60%;
       margin: 1em auto;
-      padding: 1em 0;
       text-align: center;
       color: whitesmoke;
-      line-height: 1em;
+      line-height: 1.1em;
       border-bottom-right-radius: 45px;
       border-bottom-left-radius: 45px;
   }
   
     footer {
       border-top: 2em;
-      margin-bottom: 1em;
       max-width: 65%;
       margin: 0 auto;
       background: rgb(74, 99, 116);
       color: #fff;
       padding: 1em 0;
       text-align: center;
-      border-top-right-radius: 45px;
-      border-top-left-radius: 45px;
+      
   }
   
   h3 {
@@ -102,34 +98,51 @@
   
   }
   
-  section > p{
-    margin: 1em 0;
-    }
-  
     #projects {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       grid-template-rows: auto;
       grid-column-gap: 1em;
+      grid-row-gap: 1em;
       justify-content: center;
       
     }
 
     #projects article {
-        background: rgb(255, 255, 255);
-        padding: 1em;
+      background: rgb(255, 255, 255);
+      padding: 1em;
     }
 
     img{
-        width: 100%;
-        border: 1px solid #333;
+      width: 100%;
+      border: 1px solid #333;
     }
 
-    #contact img {
-      width: 50%;
-      align-items: left;
-  }
+    #contact {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      grid-template-rows: 30%;
+      width: 100%;
+      justify-content: center;
+      margin-top: 5%;
+      margin-left: 30%;
+      
+      }
 
+    #contact img{
+     width: 30%;
+     border: 1px solid #333;
+         
+    }
+
+    #contact p{
+     display: block;
+     width: 30%;
+     border: 1px solid #333;
+      
+    }
+
+    
     
     
 
