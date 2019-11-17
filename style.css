@@ -13,13 +13,13 @@
     header {
       padding: 2em;
       border-bottom: 1px solid rgb(97, 113, 255);
-      background-color: rgb(74, 99, 116);
+      background-color: #3e6990;
       margin-bottom: 2%;
       max-width: 60%;
       margin: 1em auto;
       text-align: center;
       color: whitesmoke;
-      line-height: 1.1em;
+      line-height: 1.4em;
       border-bottom-right-radius: 45px;
       border-bottom-left-radius: 45px;
   }
@@ -58,14 +58,29 @@
   }
   
   nav {
+    margin-top: 15em;
     position: fixed;
     top: 0;
-    left: 0;
-    width: 100%;
+    right: 0;
+    width: auto;
     display: flex;
-    flex-flow: row;
+    flex-flow: column;
     justify-content: center;
-    background: #333;
+      }
+  
+  #nav-button
+  {
+  background-color:#322214; 
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  border: 2px solid #3e6990;
+  border-bottom-right-radius: 45px;
+  border-bottom-left-radius: 45px;
+  margin-top: 15px;
   }
   
   body {
