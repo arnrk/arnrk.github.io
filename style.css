@@ -2,70 +2,141 @@
   margin: 0 auto;
   border: auto;
   max-width: 65%;
-  background-color: rgb(214, 214, 214);
   border-top-right-radius: 45px;
   border-top-left-radius: 45px;
   padding-bottom: 1%;
   }
-  
-  
-    header {
-      padding: 2em;
-      border-bottom: 1px solid rgb(97, 113, 255);
-      background-color: #3e6990;
-      margin-bottom: 2%;
-      max-width: 60%;
-      margin: 1em auto;
-      text-align: center;
-      color: whitesmoke;
-      line-height: 1.4em;
-      border-bottom-right-radius: 45px;
-      border-bottom-left-radius: 45px;
-      }
-  
-    footer {
-      border-top: 2em;
-      max-width: 65%;
-      margin: 0 auto;
-      background: #3e6990;
-      color: #fff;
-      padding: 1em 0;
-      text-align: center;
-      }
 
-     body {
-       font-family: sans-serif;
-       line-height: 1.618em;
-       box-sizing: boder-box;
-       margin: 2%;
-       padding: 0;
+  .container1 {
+    margin: 5px auto;
+    border: 10px;
+    max-width: 65%;
+    background-color: rgb(214, 214, 214);
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    padding-bottom: 1%;
+    }
+
+  .container2 {
+    margin: 20px auto;
+    border: 10px;
+    max-width: 65%;
+    background-color: rgb(214, 214, 214);
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    padding-bottom: 1%;
+    }
+
+  .container4 {
+    margin: 20px auto;
+    border: 10px;
+    max-width: 65%;
+    background-color: rgb(214, 214, 214);
+    border-top-right-radius: 45px;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    padding-bottom: 1%;
+    }
   
-       background-image: url("./images/space-3197606_1920.jpg");
-       background-attachment: fixed;
-       background-repeat: no-repeat;
-       background-size: cover; 
-       background-position: center;
-       }
+  header {
+    padding: 2em;
+    border-bottom: 1px solid rgb(97, 113, 255);
+    background-color: #3e6990;
+     margin-bottom: 2%;
+    max-width: 60%;
+    margin: 1em auto;
+    text-align: center;
+    color: whitesmoke;
+    line-height: 1.4em;
+    border-bottom-right-radius: 45px;
+    border-bottom-left-radius: 45px;
+    }
+  
+  footer {
+    border-top: 2em;
+    max-width: 65%;
+    margin: 0 auto;
+    background: #3e6990;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    }
+
+    body {
+      font-family: sans-serif;
+      line-height: 1.618em;
+      box-sizing: boder-box;
+      margin: 2%;
+      padding: 0;
+  
+      background-image: url("./images/space-3197606_1920.jpg");
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-size: cover; 
+      background-position: center;
+      }
 
       h3 {
         text-decoration: underline;
-        margin-left: 25px;
+        margin-left: 40px;
         }
 
       h2 {
        text-align: center;
+       text-decoration: underline;
        }
   
       #bold1 {
-        font-weight: 2px;
+        font-weight: bold;
+        text-decoration: underline;
         }
+
+      #bold {
+        font-weight: bold;
+        }
+
+      #inventory{
+        background: rgba(214, 214, 214, 0.83);
+        padding-left: 35px;
+        padding-right: 28px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        border-right: 10px;
+        border-right-color: black;
+      }
+
+      #summary{
+        padding-left: 45px;
+        padding-top: 10px;
+        padding-bottom: 1px;
+        border-right: 10px;
+        border-right-color: black;
+      }
+
+      #summary p {
+        padding-left: 1.4em;
+        padding-right: 1.4em;
+        }
+
+      #summary image {
+        height:250px;
+          }
+
+  .textwrap{
+    float: left;
+    margin: 10px;
+    }
 
   #icon {
     height: 110px;
     }
    
-  nav {
-    margin-top: 15em;
+  .nav {
     position: fixed;
     top: 0;
     right: 0;
@@ -113,12 +184,15 @@
 
     #projects article {
       background: rgb(255, 255, 255);
-      padding: 1.3em;
+      padding-left: .6em;
+      padding-bottom: .1em;
       min-width: 375px;
       }
 
     #projects p {
-      padding: .3em;
+      padding-left: 2em;
+      padding-right: 2em;
+      
       }
        
     .image {
@@ -207,6 +281,9 @@
       overflow: auto;
     }
     
+   
+   /*Media Queries*/
+   
     @media screen and (max-width: 700px){
       .box{
         min-width: 80%;
@@ -214,6 +291,30 @@
       .popup{
         min-width: 80%;
       }
+      
+      nav {
+        margin-top: .5em;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        transition: all 5s ease-in-out;
+        }
+
+        #nav-button{
+          background-color:#322214; 
+          color: white;
+          padding: 5px 15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 12px;
+          border: 2px solid #3e6990;
+          margin: 10px;
+          }
     }
 
     @media screen and (max-width: 1050px){
@@ -223,6 +324,29 @@
       .popup{
         min-width: 70%;
       }
+      nav {
+        margin-top: .5em;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+        transition: all 5s ease-in-out;
+    }
+
+        #nav-button{
+          background-color:#322214; 
+          color: white;
+          padding: 5px 15px;
+          text-align: center;
+          text-decoration: none;
+          display: inline-block;
+          font-size: 12px;
+          border: 2px solid #3e6990;
+          margin: 10px;
+          }
     }
 
     @media screen and (max-width: 1200px){
