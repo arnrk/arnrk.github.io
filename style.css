@@ -10,7 +10,8 @@
   .container1 {
     margin: 5px auto;
     border: 10px;
-    max-width: 65%;
+    width: 65%;
+    min-width: 750px;
     background-color: rgb(214, 214, 214);
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
@@ -22,7 +23,8 @@
   .container2 {
     margin: 20px auto;
     border: 10px;
-    max-width: 65%;
+    width: 65%;
+    min-width: 750px;
     background-color: rgb(214, 214, 214);
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
@@ -34,7 +36,8 @@
   .container4 {
     margin: 20px auto;
     border: 10px;
-    max-width: 65%;
+    width: 65%;
+    min-width: 750px;
     background-color: rgb(214, 214, 214);
     border-top-right-radius: 45px;
     border-top-left-radius: 45px;
@@ -47,8 +50,9 @@
     padding: 2em;
     border-bottom: 1px solid rgb(97, 113, 255);
     background-color: #3e6990;
-     margin-bottom: 2%;
-    max-width: 60%;
+    margin-bottom: 2%;
+    width: 65%;
+    min-width: 740px;
     margin: 1em auto;
     text-align: center;
     color: whitesmoke;
@@ -59,7 +63,8 @@
   
   footer {
     border-top: 2em;
-    max-width: 65%;
+    width: 65%;
+    min-width: 740px;
     margin: 0 auto;
     background: #3e6990;
     color: #fff;
@@ -137,6 +142,7 @@
     }
    
   .nav {
+    margin-top: 185px;
     position: fixed;
     top: 0;
     right: 0;
@@ -289,67 +295,49 @@
         min-width: 80%;
       }
       .popup{
+        margin-top: 20%;
         min-width: 80%;
+       
       }
       
-      nav {
+      /*nav {
         margin-top: .5em;
         position: fixed;
         top: 0;
         left: 0;
-        width: 100%;
+        width: auto;
         display: flex;
-        flex-flow: row;
+        flex-flow: ;
         justify-content: center;
         transition: all 5s ease-in-out;
         }
 
-        #nav-button{
-          background-color:#322214; 
-          color: white;
-          padding: 5px 15px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 12px;
-          border: 2px solid #3e6990;
-          margin: 10px;
-          }
-    }
+       
+    }*/
 
     @media screen and (max-width: 1050px){
       .box{
-        min-width: 70%;
+        min-width: 80%;
       }
       .popup{
-        min-width: 70%;
+        margin-top: 20%;
+        min-width: 80%;
+       
       }
-      nav {
-        margin-top: .5em;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        display: flex;
-        flex-flow: row;
-        justify-content: center;
-        transition: all 5s ease-in-out;
-    }
+     
 
-        #nav-button{
-          background-color:#322214; 
-          color: white;
-          padding: 5px 15px;
-          text-align: center;
-          text-decoration: none;
-          display: inline-block;
-          font-size: 12px;
-          border: 2px solid #3e6990;
-          margin: 10px;
-          }
+       
     }
 
     @media screen and (max-width: 1200px){
+      .box{
+        min-width: 80%;
+      }
+      .popup{
+        margin-top: 20%;
+        min-width: 80%;
+       
+      }
       
     }
 
