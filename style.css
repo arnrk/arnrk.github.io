@@ -37,6 +37,7 @@
   
   h3 {
     text-decoration: underline;
+    margin-left: 25px;
     
       }
 
@@ -108,8 +109,6 @@
   padding-top: 1em;
   padding-left: 5%;
   padding-right: 5%;
-  padding-bottom: 1%;
-  min-height: 20em;
   
   }
   
@@ -120,18 +119,30 @@
       grid-column-gap: 1em;
       grid-row-gap: 1em;
       justify-content: center;
+      min-width: 309px;
       
     }
 
     #projects article {
       background: rgb(255, 255, 255);
-      padding: 1em;
+      padding: 1.3em;
+      min-width: 375px;
     }
 
+    #projects p {
+      padding: .3em;
+    }
+
+       
     .image {
       height: 184px;
+      max-width: 310px;
       border: 1px solid #333;
-      padding: 7%;
+      padding: 3%;
+      box-shadow: -5px 5px 5px #aaa;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
 
       }
    
@@ -152,7 +163,7 @@
       position: relative;
       margin: 10px auto;
       width: auto;
-      height: 250px;
+      height: 210px;
       z-index: 1;
     }
     #f1_container {
@@ -178,12 +189,74 @@
       display: block;
       transform: rotateY(180deg);
       box-sizing: border-box;
-      padding: 5px;
+      padding: 2px;
       color: white;
       text-align: center;
       background-color: #5e778e;
     }
 
+
+    
+    /*Image PopUp*/
+
+    .overlay {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.7);
+      transition: opacity 500ms;
+      visibility: hidden;
+      opacity: 0;
+    }
+    .popup {
+      margin: 70px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 5px;
+      width: 30%;
+      position: relative;
+      transition: all 5s ease-in-out;
+    }
+    
+    .popup h2 {
+      margin-top: 0;
+      color: #333;
+      font-family: Tahoma, Arial, sans-serif;
+    }
+    .popup .close {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+      transition: all 200ms;
+      font-size: 30px;
+      font-weight: bold;
+      text-decoration: none;
+      color: #333;
+    }
+    .popup .close:hover {
+      color: #06D85F;
+    }
+    .popup .content {
+      max-height: 30%;
+      overflow: auto;
+    }
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width: 700px){
+      .box{
+        width: 70%;
+      }
+      .popup{
+        width: 70%;
+      }
+    }
    
 
     
