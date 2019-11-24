@@ -247,7 +247,8 @@
       padding: 20px;
       background: #fff;
       border-radius: 5px;
-      width: 30%;
+      max-width: 30%;
+      min-width: 350px;
       position: relative;
       transition: all 5s ease-in-out;
     }
@@ -290,52 +291,63 @@
    
    /*Media Queries*/
    
-    @media screen and (max-width: 700px){
+   @media screen and (max-width: 650px){
+    .box{
+      min-width: 100%;
+    }
+    .popup{
+      margin-top: 20%;
+      min-width: 350px;
+     
+    }
+    
+    
+
+  @media screen and (max-width: 750px){
+    .box{
+      min-width: 100%;
+    }
+    .popup{
+      margin-top: 20%;
+      min-width: 350px;
+     
+    }
+   
+    
+   
+
+   @media screen and (max-width: 850px){
       .box{
-        min-width: 80%;
+        min-width: 100%;
       }
       .popup{
         margin-top: 20%;
-        min-width: 80%;
+        min-width: 350px;
        
       }
       
-      /*nav {
-        margin-top: .5em;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: auto;
-        display: flex;
-        flex-flow: ;
-        justify-content: center;
-        transition: all 5s ease-in-out;
-        }
-
-       
-    }*/
+      
 
     @media screen and (max-width: 1050px){
       .box{
-        min-width: 80%;
+        min-width: 100%;
       }
       .popup{
         margin-top: 20%;
-        min-width: 80%;
+        min-width: 350px;
        
       }
      
-
        
     }
 
     @media screen and (max-width: 1200px){
       .box{
-        min-width: 80%;
+        min-width: 100%;
       }
       .popup{
         margin-top: 20%;
-        min-width: 80%;
+        min-width: 350px;
        
       }
       
