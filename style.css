@@ -3,7 +3,7 @@
   border: 10px;
   width: 65%;
   min-width: 850px;
-   border-top-right-radius: 45px;
+  border-top-right-radius: 45px;
   border-top-left-radius: 45px;
   border-bottom-right-radius: 45px;
   border-bottom-left-radius: 45px;
@@ -177,8 +177,8 @@ body {
   section {
   margin: 1em 0;
   padding-top: 1em;
-  padding-left: 5%;
-  padding-right: 5%;
+  padding-left: 3%;
+  padding-right: 3%;
   min-width: 700px;
   }
   
@@ -434,6 +434,8 @@ body {
         background-size: repeat; 
         background-position: center;
         }
+
+       
     }
 
   @media screen and (max-width: 1200px){
