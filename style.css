@@ -137,7 +137,9 @@ body {
 
 .textwrap{
   float: left;
-  margin: 10px;
+  margin-top: 1px;
+  margin-right: 10px;
+  margin-bottom: 20px;
   }
 
 #icon {
