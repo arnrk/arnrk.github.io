@@ -250,6 +250,20 @@ body {
   margin-left: auto;
   margin-right: auto;
   }
+
+.image1 {
+    height: 184px;
+    max-width: 310px;
+    border: 1px solid #333;
+    padding: 3%;
+    box-shadow: -5px 5px 5px #aaa;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    justify-content: center;
+    }
    
 #contact {
   display: grid;
@@ -259,6 +273,15 @@ body {
   grid-row-gap: 1em;
   justify-content: center;
   }
+
+  .textwrap {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+    justify-content: center;
+    }
 
     
     
