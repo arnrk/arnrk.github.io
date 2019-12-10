@@ -55,7 +55,7 @@ header {
   background-color: #3e6990;
   margin-bottom: 2%;
   width: 65%;
-  min-width: 850px;
+  min-width: 750px;
   margin: 1em auto;
   text-align: center;
   color: whitesmoke;
@@ -147,7 +147,7 @@ body {
   }
    
 .nav {
-  margin-top: 185px;
+  margin-top: 55px;
   position: fixed;
   top: 0;
   right: 0;
@@ -160,15 +160,15 @@ body {
   #nav-button{
     background-color:#322214; 
     color: white;
-    padding: 15px 32px;
+    padding: 15px 18px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 20px;
+    font-size: 15px;
     border: 2px solid #3e6990;
     border-bottom-right-radius: 45px;
     border-bottom-left-radius: 45px;
-    margin-top: 30px;
+    margin-top: 25px;
     }
   
 .projectContent {
@@ -282,7 +282,7 @@ body {
   }
     
 .popup {
-  margin: 70px auto;
+  margin: 20px auto;
   padding: 20px;
   background: #fff;
   border-radius: 5px;
@@ -333,7 +333,7 @@ body {
     min-width: 100%;
     }
   .popup{
-    margin-top: 30%;
+    margin-top: 50px;
     min-width: 350px;
     }
   .nav {
@@ -353,7 +353,7 @@ body {
     min-width: 100%;
     }
   .popup{
-    margin-top: 20%;
+    margin-top: 50px;
     min-width: 350px;
     }
   .nav {
@@ -373,7 +373,7 @@ body {
       min-width: 100%;
       }
     .popup{
-      margin-top: 15%;
+      margin-top: 50px;
       min-width: 350px;
       }
 
@@ -394,7 +394,7 @@ body {
       min-width: 100%;
       }
     .popup{
-      margin-top: 15%;
+      margin-top: 50px;
       min-width: 350px;
       max-width: 350px;
       }
@@ -445,7 +445,7 @@ body {
       min-width: 100%;
       }
     .popup{
-      margin-top: 15%;
+      margin-top: 50px;
       min-width: 350px;
       max-width: 350px;
       }
